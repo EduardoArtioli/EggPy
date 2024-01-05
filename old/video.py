@@ -4,7 +4,7 @@ import os
 from time import time
 import pyautogui
 from PIL import ImageGrab
-from vision import Vision 
+from old.vision import Vision 
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 

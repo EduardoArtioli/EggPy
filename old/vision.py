@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 import os
-from hsvfilter import HsvFilter
+from old.hsvfilter import HsvFilter
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 

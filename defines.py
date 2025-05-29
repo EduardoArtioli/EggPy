@@ -5,7 +5,7 @@ import numpy as np
 RESUME_KEY = Key.f1
 PAUSE_KEY = Key.f2
 EXIT_KEY = Key.esc
-DELAY = 2 
+DELAY = 1
 CLICK_HOLD = 4
 DRONE_CLICK_DELAY = 2
 CHECK_WINDOW_OPENING_DELAY = 1.5
@@ -38,6 +38,7 @@ WINDOWS_SIZES = {
     'RESEARCH CENTER': { 'width': 460, 'height': 582 },
     'SHIPPING DEPOT': { 'width': 436, 'height': 561 },
     'RANDOM GIFT': { 'width': 235, 'height': 240 },
+    'MAIN MENU': { 'width': 397, 'height': 394 },
     'MULTIPLAYER': { 'width': 230, 'height': 151 },
     'RUNNING CHICKEN': { 'width': 230, 'height': 178 },
     'VEICHLE EVENT': { 'width': 158, 'height': 188 },

@@ -1,4 +1,3 @@
-import cv2
 import numpy as np
 import pyautogui
 from pynput.keyboard import *

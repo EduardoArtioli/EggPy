@@ -81,6 +81,7 @@ def click_on_window(window_name):
         'RESEARCH CENTER': (1430, 175),
         'SHIPPING DEPOT': (1420, 188),
         'RANDOM GIFT': (1200, 550),
+        'MAIN MENU': (1420, 268),
         'MULTIPLAYER': (1200, 500),
         'RUNNING CHICKEN': (1200, 550),
         'VEICHLE EVENT': (1200, 550),
@@ -92,8 +93,11 @@ def click_on_window(window_name):
     coordinates = window_coordinates.get(window_name)
     if coordinates:
         print(f"Clicking on window: {window_name}")
+        mouseMove(*coordinates)
+        time.sleep(0.5)
         mouseClick(*coordinates)  # Unpacks the tuple into x and y
         clicked_time = time.time()
+        print(f"Clicked on {window_name}")
         mouseMove(X_OFFSET + SCREENSHOT_WIDTH / 2, 800)  # Move mouse to a default position
     else:
         print("Window not found")
